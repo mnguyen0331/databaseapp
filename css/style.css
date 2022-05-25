@@ -15,10 +15,11 @@ body {
     overflow: hidden;
 }
 
-#main-header {
+header {
     font-style: normal;
     background-color: aqua;
     text-align: center;
+    font: 'Roboto', sans-serif;
 }
 
 #navbar {
@@ -123,10 +124,63 @@ body {
 #login-section {
     background-image: url(../images/loginbg.jpg);
     background-size: 100% 100%;
+    margin-bottom: 100px;
+    margin: auto;
 }
 
-#login-box {
-    margin: auto;
+#login-section h2 {
+    margin-top: 100px;
+    text-align: center;
+    color: honeydew;
+    font-size: 40px;
+}
+
+#login-form {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    padding: 30px;
+    border: 5px solid coral;
+    background-color: white;
+}
+
+#login-form label {
+    display: block;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#login-form input[type="password"], #login-form input[type="email"], #login-form input[type="text"]  {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 1em;
+    border: 5px solid grey;
+    background: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+#login-form input[type="checkbox"] {
+    margin-bottom: 20px;
+    width: 18px;
+    height: 18px;
+}
+
+#login-form button {
+    padding: 10px;
+    background: #04AA6D;
+    color: white;
+    font-size: 17px;
+    font-style: bold;
+    border: 1px solid grey;
+    cursor: pointer;
+    width: 100%;
 }
 
 .showcase {
@@ -150,7 +204,7 @@ body {
     display: block;
 }
 
-.forem-element label {
+.form-element label {
     font-family: tahoma;
     font-size: 20px;
     font-weight: 800;
